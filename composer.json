@@ -1,5 +1,5 @@
 {
-	"name":"fishpig\/module-wordpress-disablewpautop",
+	"name":"bentideswell\/magento2-wordpress-disablewpautop",
 	"description":"Disable the wpautop functionality.",
 	"type":"magento2-module",
 	"require":{
