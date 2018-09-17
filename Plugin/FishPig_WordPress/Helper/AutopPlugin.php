@@ -1,11 +1,14 @@
 <?php
-/**
+/*
  *
-**/
+ *
+ */
 namespace FishPig\WordPress_DisableWpautop\Plugin\FishPig_WordPress\Helper;
-use      \FishPig\WordPress\Helper\Filter;
 
-class FilterPlugin
+/* Subject */
+use FishPig\WordPress\Helper\Autop;
+
+class AutopPlugin
 {
 	/*
 	 * Stop wpautop from being called
@@ -15,7 +18,7 @@ class FilterPlugin
 	 * @param  string $string
 	 * @return mixed
 	 */
-	public function aroundAddParagraphTagsToString(Filter $filter, \Closure $callback, $string)
+	public function aroundAddParagraphTagsToString(Autop $autop, \Closure $callback, $string)
 	{
 		return $string;
 	}
